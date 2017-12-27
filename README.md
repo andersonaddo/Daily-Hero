@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+## About Daily Hero
 
-You can use the [editor on GitHub](https://github.com/andersonaddo/Daily-Hero/edit/gh-pages/README.md) to maintain and preview the content for your website in Markdown files.
+Have you ever wanted to know more about the DC and Marvel comic Multiverse, but never knew where to start? Or perhaps you didn’t have the motivation to go through tons and tons on webpages? Then Daily Hero is your solution. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+###What it does
+ <img src="https://github.com/andersonaddo/Daily-Hero/blob/gh-pages/Pictures/Screenshot%201.png" width = "512" length = "768">
+ 
+With Daily Hero, you’ll get the opportunity to learn more about the DC and Marvel Multiverse everyday, with no effort required from you. **Daily Hero updates each day** (Internet connection not required) with information about a DC or Marvel superhero or supervillain for you to expand your knowledge on the DC and Marvel Multiverse. 
 
-### Markdown
+The daily information includes: 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+ - A picture of the superhero or supervillain 
+ - A summary of who the superhero or supervillain is and his/her back-story. 
+ - Trivia about the character 
+ - A list of the superhero or supervillain’s superpowers or abilities 
+ - A hyperlink for you to find out more about this character over the Internet. -An option to save the day’s data to read later
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+----------
 
-- Bulleted
-- List
+----------
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+ Daily Hero is the perfect way to start learning about so many interesting comic characters not yet seen in the movies, and also gives you a chance to see a few silly characters  to give you a laugh. Newbies to the comic world also have an advantage, as a few more ͞common͟ characters have been included in Daily Hero to get them started. The trivia included can also be surprising every once in a while. Daily Hero requires no internet connection and will give you daily information for over 6 months. **That’s over 200 days’ worth of comic book world facts**.
 
-[Link](url) and ![Image](src)
-```
+##Daily Hero - The app for comic book fans
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/andersonaddo/Daily-Hero/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<img src="https://github.com/andersonaddo/Daily-Hero/blob/gh-pages/Pictures/Screenshot%202.png" width = "512" length = "768">  <img src="https://github.com/andersonaddo/Daily-Hero/blob/gh-pages/Pictures/Screenshot%203.png" width = "512" length = "768">  <img src="https://github.com/andersonaddo/Daily-Hero/blob/gh-pages/Pictures/Screenshot%204.png" width = "512" length = "768">  <img src="https://github.com/andersonaddo/Daily-Hero/blob/gh-pages/Pictures/Screenshot%205.png" width = "512" length = "768">  <img src="https://github.com/andersonaddo/Daily-Hero/blob/gh-pages/Pictures/Screenshot%206.png" width = "512" length = "768">  <img src="https://github.com/andersonaddo/Daily-Hero/blob/gh-pages/Pictures/Screenshot%207.png" width = "512" length = "768">  <img src="https://github.com/andersonaddo/Daily-Hero/blob/gh-pages/Pictures/Screenshot%208.png" width = "512" length = "768">  <img src="https://github.com/andersonaddo/Daily-Hero/blob/gh-pages/Pictures/Screenshot%209.png" width = "512" length = "768">  <img src="https://github.com/andersonaddo/Daily-Hero/blob/gh-pages/Pictures/Screenshot%2010.png" width = "512" length = "768">
