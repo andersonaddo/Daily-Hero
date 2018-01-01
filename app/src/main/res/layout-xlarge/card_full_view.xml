@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/linlay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:gravity="top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/cheeta"
+                    android:id="@+id/character_image"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/character_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:paddingBottom="8dp"
+                        android:paddingTop="8dp"
+                        android:text="Cheeta"
+                        android:textIsSelectable="true"
+                        android:textColor="#DE000000"
+                        android:textSize="32sp" />
+
+                    <View
+                        android:id="@+id/separator"
+                        android:layout_width="250dp"
+                        android:layout_height="2dp"
+                        android:layout_below="@+id/character_title"
+                        android:layout_centerHorizontal="true"
+                        android:background="@color/colorAccent" />
+
+                    <LinearLayout
+                        android:id="@+id/text_group"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/separator"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginStart="16dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_gravity="center">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingTop="4dp"
+                                android:paddingBottom="4dp"
+                                android:text="Saved\nCharacter number: "
+                                android:textAlignment="center"
+                                android:textSize="20sp"
+                                android:textColor="#8A000000"/>
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingTop="4dp"
+                                android:text="0"
+                                android:paddingBottom="4dp"
+                                android:layout_gravity="bottom"
+                                android:textSize="20sp"
+                                android:textColor="#8A000000"
+                                android:id="@+id/character_number"/>
+
+                        </LinearLayout>
+
+                        <View
+                            android:id="@+id/separator2"
+                            android:layout_width="250dp"
+                            android:layout_height="2dp"
+                            android:layout_gravity="center"
+                            android:background="@color/colorAccent" />
+
+                        <TextView
+                            android:id="@+id/character_summary"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="8dp"
+                            android:paddingTop="8dp"
+                            android:textIsSelectable="true"
+                            android:textSize="20sp"
+                            android:text="-\n-\n-\n-"
+                            android:textColor="#DE000000"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans_serif_bold"
+                            android:paddingTop="8dp"
+                            android:text="Trivia"
+                            android:textColor="#DE000000"
+                            android:textSize="32sp" />
+
+                        <TextView
+                            android:id="@+id/character_trivia"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="8dp"
+                            android:textSize="20sp"
+                            android:paddingTop="8dp"
+                            android:text="-\n-\n-\n-"
+                            android:textIsSelectable="true"
+                            android:textColor="#DE000000" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans_serif_bold"
+                            android:paddingTop="8dp"
+                            android:text="Abilities"
+                            android:textColor="#DE000000"
+                            android:textSize="32sp" />
+
+                        <TextView
+                            android:id="@+id/character_abilities"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="8dp"
+                            android:paddingTop="8dp"
+                            android:textSize="20sp"
+                            android:textIsSelectable="true"
+                            android:text="-\n-\n-\n-"
+                            android:textColor="#DE000000" />
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/link_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@+id/text_group"
+                        android:layout_marginTop="8dp"
+                        android:text="More"
+                        android:textColor="#0000FF"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:onClick="link"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+
+    </LinearLayout>

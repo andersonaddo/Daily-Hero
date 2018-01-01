@@ -1,0 +1,148 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lumberjackapps.dailyhero.AboutPage">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:fillViewport="true">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical">
+
+          <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="350dp"
+              android:src="@drawable/lumberjackappslogoempty"
+              android:id="@+id/logo"
+              android:scaleType="fitCenter" />
+
+
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:layout_margin="8dp">
+
+         <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Daily Hero"
+              android:layout_marginBottom="8dp"
+              android:textSize="32sp"
+              android:gravity="end"
+              android:textColor="#DE000000" />
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="The app for comic fans"
+              android:textSize="28sp"
+              android:gravity="end"
+              android:textColor="#8A000000"
+              android:textStyle="italic"/>
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Version 1.0"
+              android:textSize="28sp"
+              android:gravity="end"
+              android:textColor="#8A000000"
+              android:textStyle="italic"/>
+
+
+
+              <View
+                  android:layout_width="match_parent"
+                  android:layout_height="1dp"
+                  android:layout_marginEnd="48dp"
+                  android:layout_marginBottom="8dp"
+                  android:layout_marginTop="8dp"
+                  android:background="#9B9B9B"/>
+
+              <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Any Suggestions or Issues?"
+              android:layout_marginBottom="8dp"
+              android:textSize="30sp"
+              android:textColor="#DE000000" />
+
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Contact us or leave a review!"
+                  android:layout_marginBottom="8dp"
+                  android:textSize="28sp"
+                  android:textColor="#8A000000" />
+
+          </LinearLayout>
+
+          <LinearLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:layout_margin="8dp">
+          <Button
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:backgroundTint="@color/colorAccent"
+              android:text="Contact"
+              android:id="@+id/contactUsButton"/>
+
+              <Button
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:backgroundTint="@color/colorAccent"
+                  android:text="Our Website"
+                  android:id="@+id/ourWebsiteButton"/>
+
+          </LinearLayout>
+
+          <View
+              android:layout_width="match_parent"
+              android:layout_height="1dp"
+              android:layout_marginEnd="48dp"
+              android:layout_marginBottom="8dp"
+              android:layout_marginTop="8dp"
+              android:layout_marginStart="8dp"
+              android:background="#9B9B9B"/>
+
+          <Button
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Legal Disclaimers"
+              android:textColor="#9b9b9b"
+              android:id="@+id/legal_button"
+              android:layout_marginEnd="8dp"
+              android:layout_marginStart="8dp"
+              style="@style/Widget.AppCompat.Button.Borderless"
+              android:textSize="20sp"/>
+
+          <View
+              android:layout_width="match_parent"
+              android:layout_height="1dp"
+              android:layout_marginEnd="48dp"
+              android:layout_marginBottom="8dp"
+              android:layout_marginTop="8dp"
+              android:layout_marginStart="8dp"
+              android:background="#9B9B9B"/>
+
+
+
+      </LinearLayout>
+  </ScrollView>
+</LinearLayout>
+</FrameLayout>

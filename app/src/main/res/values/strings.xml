@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Daily Hero</string>
+
+    <string name="firstname">Madame Hydra</string>
+
+    <string name="firstpicture">madamhydra</string>
+
+    <string name="firstsummary">Madame Hydra, formerly known as Viper, is the terrorist leader of HYDRA and an enemy of Captain America, Nick Fury and Wolverine among many others. While she is not the ruler of Madripoor, she did - or does - own it.
+    Ophelia Sarkissian was orphaned in Eastern Europe when she was young, when her parents were killed during a revolution in her country. Brutally trained early in her life by Kraken, she worked her way up the ranks and gained the respect of the criminal underworld. Sarkissian eventually became the leader of HYDRA and became known as Madame Hydra. HYDRA and Sarkissian constantly battle Captain America and SHIELD.</string>
+
+    <string name="firsttrivia">None</string>
+
+    <string name="firstabilities">She has the strength, agility, and stamina of an Olympic athlete, and is a rigorously trained martial artist. She also has been trained to use various guns and firearms, and is very talented with knives. She is also shown to be a top-notch swordswoman. Viper is also gifted with disguises and acting. A brilliant strategist, she uses fangs and lipstick that are poisonous and often fatal. Her elongated canine teeth are hollowed and contain a poison to which she is immune. She is also masterful at stealth and espionage. Viper also employs a wide array of gasses and has used a sedative to make others susceptible to her control. She has also been shown to use experimental and advanced weaponry such as a teleportation ring and claw attachments built into her gloves. She is shown to be a brilliant tactician capable of controlling huge criminal organizations. She has extensive combat experience and tactical knowledge. Her greatest weapon may be her influence and the vast resources that come with her position in organized crime.
+    After her death she has a green mass on her head that keeps her alive. The mass also has tentacles that are controlled either by Viper or her instincts.</string>
+
+    <string name="firstlink">http://comicvine.gamespot.com/madame-hydra/4005-3420/</string>
+
+    <string name="legal">The fictional characters, places and events portrayed in this app are property of Marvel Comics and DC Comics. It is also acknowledged that some of the images displayed are property of Marvel Comics and DC Comics. This app has absolutely no affiliation or relationship with them whatsoever.
+    The information based on these characters in question were gotten directly form sources like Comic Vine, Marvel Wikia and DC Wikia. All images of characters are not our property, but the property of their rightful owners. Full credit is given to them.
+    The image seen when all characters have been viewed ("At the end of the tunnel") was made by Lumen Bigott. </string>
+
+</resources>
