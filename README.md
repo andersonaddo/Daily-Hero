@@ -5,5 +5,5 @@ Daily Hero is a useful Android application that teaches its users about tons of 
 
 Also, if you plan of updating the database that runs Daily Hero (either for the app itself or a project built on top of it, remember to do two things:
 
- - Update the variable in the `AlarmReceiver.java` class that dictated how many records the database has
+ - Update the variable in the `AlarmReceiver.java` class that dictates how many records the database has
  - Update the database version in `MyDatabase.java`
